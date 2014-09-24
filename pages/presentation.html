@@ -1,20 +1,29 @@
 <!DOCTYPE HTML>
 <html lang="sv">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<div id="container">
     <head>
     <meta charset="utf-8" />
     <title>Jonas Tornfors</title> <!--detta är en kommentar. Jag vet inte vad jag ska kommentera-->
     </head>
     <body>
-        <h1>Om mig</h1>
+<!--<img src="pics/Logga.png" id=pic alt="logga">-->
+        <header class="logo">
+            <h1>Om mig</h1>
+        </header> 
+        <div id=cssmenu>
         <p>Jonas bästa sida någonsin</p>
-        <ul>
+        <ul id="nav">
            <li><a href="../index.html">Start</a></li>
            <li><a href="laborationer.html">Laborationer</a> </li>
-           <li><a href="presentation.html">Presentation</a></li>
+           <li class="active"><a href="presentation.html">Presentation</a></li>
            <li><a href="kontakt.html">Kontakt</a></li>
         </ul> 
+        </div>
+        <div id=content>
+        <h2>Jonas Tornfors</h2>
         <a id="Selfie"></a>
-        <img src="../pics/Selfie2.JPG" alt="selfie">
+        <img src="../pics/Selfie2.JPG" id="pictures" alt="selfie">
         <p>
         Jag heter Jonas och har börjat på utbildningen "Utvecklare av digitala tjänster" efter ett sabbatsår efter gymnasiet.
         Jag har bott och levt i Kalmar i hela mitt liv och har minst tre år till framför mig nu när jag läser på LNU.
@@ -50,5 +59,7 @@
             känner jag igen från det lilla jag läst i c++. Jag får väl se om det fortsätter så!
             </li>
         </ol>
+        </div>
     </body>
+    </div>    
 </html>

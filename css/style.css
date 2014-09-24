@@ -2,27 +2,44 @@
 {
     width: auto; 
     background: #b0e0e6;
+    height:auto;
     font-family:helvetica;
 
 }
 #content
 {
-   width: auto; 
+   width: 854px; 
    background: #ffffff;
-   text-align: center;
-   margin-left:300px;
-   margin-right:300px;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:left;
+   border: double 8px #b0e0e6;
 
 } 
+.h3content
+{
+    background-image: url(pictures/drawing.svg);
+    background-repeat:no-repeat;
+    padding-left:16px;
+}
+
+
 #cssmenu{
     position:fixed;    
     float:left;
-    height: auto;
-    background: #CEF5B3;
-    text-align: left;
+    height: 500px;
+    padding-top:40px;
+    padding-bottom:100px;
+    text-align: center;
+    background: linear-gradient(#b0e0e6,#4DC0D0,#4DC0D0,#4DC0D0,#4DC0D0,#4DC0D0,#4DC0D0,#4DC0D0,#b0e0e6);
+}
+#cssmenu p
+{
+    font-weight:bold;
 }
 #nav{
     background-color: #4DC0D0;
+    font-weight:bold;
     margin:0;
     padding: 0;
     list-style-type: none;
@@ -33,6 +50,7 @@
 #nav a
 {
     display:block;
+    border: double 8px #b0e0e6;
     padding: 50px;
     color: #fff;
     text-align:center;
@@ -46,14 +64,28 @@
 #pic
 {
     float:left;
+    position:absolute;
     width:200px;
     height:150px;
-    vertical-align:middle;
+}
+#pictures
+{
+    margin-left:240px;
+}
+#kontakt-formular
+{
+    width: 427px;
+    margin: 0 auto;
 }
 .active
 {
     text-align:center;
     background-color: #00515C;
+}
+.logo
+{
+    background-image: url(../pics/Logga.png);
+    background-repeat:no-repeat;
 }
 
 h1
@@ -62,22 +94,59 @@ h1
     height:150px;    
     text-align: center;
     vertical-align: middle;
-    }   
+    } 
+h2
+    {
+    border-bottom: double 8px #b0e0e6;
+    text-align:center;
+    }
+h3
+    {
+        border-bottom: double 8px #b0e0e6;
+    }    
 header 
     {
     background-position:center 10px;
     height: 150px;
-    background: #6DC0CB;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    font-size:25px;
     text-align:center;
+    background: #6DC0CB;
+    border-bottom: double 8px #b0e0e6;
     }
 footer 
     {
     padding-top:10px;    
     font-size:20px;    
-    text-align:center;    
+    text-align:left;    
     height: 70px;
-    background: #45A7B4;
+    background: #6DC0CB;
+    border-top: double 8px #b0e0e6;
     }
+ol li
+{
+    text-align:left;
+}
+ul li
+{
+    text-decoration:none;
+    text-align:left;
+}
+table
+{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+html
+{
+    background-color:#b0e0e6;
+}
+.writtenby
+{
+    font-size:70%;
+    font-style:italic;
+    text-align:right;
+}

@@ -1,25 +1,33 @@
 <!DOCTYPE HTML>
 <html lang="sv">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<div id="container">
     <head>
         <meta charset="utf-8" />
         <title>Jonas Tornfors</title>
     </head>
     <body>
+<!--<img src="pics/Logga.png" id=pic alt="logga">-->
+    <header class="logo">
         <h1>Laborationer</h1>
+    </header>    
+    <div id=cssmenu>
         <p>Jonas bästa sida någonsin</p>
-        <ul>
+        <ul id="nav">
            <li><a href="../index.html">Start</a></li>
-           <li><a href="laborationer.html">Laborationer</a> </li>
+           <li class="active"><a href="laborationer.html">Laborationer</a> </li>
            <li><a href="presentation.html">Presentation</a></li>
            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>   
+        </ul>
+    </div>
+    <div id=content>
         <h2>Webbteknisk introduktion</h2>
         <ul>
             <!--här ska det vara en lista med länkar till laborationerna-->
            <li> <a href="#laboration1">Laboration 1</a></li>
            <li> <a href="#laboration2">Laboration 2</a></li>
         </ul>
-        <h2>Resultat</h2>
+        <h3>Resultat</h3>
         <table border="1">
             <thead>
                 <tr>
@@ -29,6 +37,11 @@
                     <th>Redovisad</th>
                 </tr>    
             </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Laborationsresultat för Jonas Tornfors</td>    
+                </tr>    
+            </tfoot>
             <tbody>
                 <tr>
                     <td rowspan="2">1</td>
@@ -75,11 +88,6 @@
                     <td>Ej redovisad</td>
                 </tr>  
             </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="4">Laborationsresultat för Jonas Tornfors</td>    
-                </tr>    
-            </tfoot>
     
         </table>
         
@@ -121,5 +129,7 @@
         </ol>
         <a id="laboration2"></a>
         <h3>Laboration 2</h3>
+    </div>    
     </body>
+    </div>    
 </html>
