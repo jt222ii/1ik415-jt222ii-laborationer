@@ -9,13 +9,34 @@
 #content
 {
    width: 854px; 
-   background: #ffffff;
+   background: #FFFFDE;
    margin-left:auto;
    margin-right:auto;
    text-align:left;
    border: double 8px #b0e0e6;
-
 } 
+.linkcontent
+{
+    list-style-type:none;
+}
+.linkcontent2
+{
+    display:block;
+    color: Black;
+    text-align:center;
+    text-decoration:none;
+    background-color: #4DC0D0;
+    font-weight:bold;
+    margin:10px;
+    margin-left:35%;
+    margin-right:40%;
+    border: double 5px #b0e0e6;
+}
+.linkcontent2:hover
+{
+    color: #fff;
+    background-color: #369;
+}
 .h3content
 {
     background-image: url(pictures/drawing.svg);
@@ -52,7 +73,7 @@
     display:block;
     border: double 8px #b0e0e6;
     padding: 50px;
-    color: #fff;
+    color: black;
     text-align:center;
     text-decoration:none;
 }
@@ -76,6 +97,11 @@
 {
     width: 427px;
     margin: 0 auto;
+}
+.right
+{
+float:right;
+border:double 6px #b0e0e6;
 }
 .active
 {
@@ -134,12 +160,32 @@ ul li
     text-decoration:none;
     text-align:left;
 }
-table
-{
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+table td, th {
+    border: 5px solid  #b0e0e6;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
 }
+
+th {
+    background-color: #6DC0CB;
+    color: black;
+}
+/*table
+{
+    border: double 8px #b0e0e6;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tfoot tr th
+{
+    border: double 3px black;
+}*/
 html
 {
     background-color:#b0e0e6;
