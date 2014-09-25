@@ -1,19 +1,19 @@
 #container 
 {
-    width: auto; 
-    background: #b0e0e6;
+    background-color:#b0e0e6;
+    width: 1024px; 
     height:auto;
     font-family:helvetica;
+    margin:0 auto;
 
 }
 #content
 {
-   width: 854px; 
-   background: #FFFFDE;
-   margin-left:auto;
-   margin-right:auto;
-   text-align:left;
-   border: double 8px #b0e0e6;
+    float:right;
+    width: 800px; 
+    background: #FFFFDE;
+    text-align:left;
+    border: double 8px #b0e0e6;
 } 
 .linkcontent
 {
@@ -46,8 +46,8 @@
 
 
 #cssmenu{
-    position:fixed;    
     float:left;
+    width:200px;
     height: 500px;
     padding-top:40px;
     padding-bottom:100px;
@@ -100,8 +100,8 @@
 }
 .right
 {
-float:right;
-border:double 6px #b0e0e6;
+    float:right;
+    border:double 6px #b0e0e6;
 }
 .active
 {
@@ -136,8 +136,7 @@ header
     height: 150px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    font-size:25px;
+    font-size:15px;
     text-align:center;
     background: #6DC0CB;
     border-bottom: double 8px #b0e0e6;
@@ -145,11 +144,13 @@ header
 footer 
     {
     padding-top:10px;    
-    font-size:20px;    
-    text-align:left;    
+    font-size:15px;
+    font-style:italic;
+    text-align:center;    
     height: 70px;
     background: #6DC0CB;
-    border-top: double 8px #b0e0e6;
+    clear:both;
+    margin-bottom:20px;
     }
 ol li
 {
@@ -186,9 +187,10 @@ table tfoot tr th
 {
     border: double 3px black;
 }*/
-html
+body
 {
-    background-color:#b0e0e6;
+    background-color:#fff;
+    margin:0;
 }
 .writtenby
 {
