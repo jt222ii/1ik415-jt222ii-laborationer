@@ -1,6 +1,6 @@
 #container 
 {
-    background-color:#b0e0e6;
+    background-color:#417A69;
     width: 1024px; 
     height:auto;
     font-family:helvetica;
@@ -11,10 +11,14 @@
 {
     float:right;
     width: 800px; 
-    background: #FFFFDE;
+    background: #DCFFF5;
     text-align:left;
-    border: double 8px #b0e0e6;
-} 
+    border: double 8px #417A69;
+}
+#content p
+{
+    margin:20px;
+}
 .linkcontent
 {
     list-style-type:none;
@@ -25,12 +29,12 @@
     color: Black;
     text-align:center;
     text-decoration:none;
-    background-color: #4DC0D0;
+    background-color: #6E9C8E;
     font-weight:bold;
     margin:10px;
     margin-left:35%;
     margin-right:40%;
-    border: double 5px #b0e0e6;
+    border: double 5px #417A69;
 }
 .linkcontent2:hover
 {
@@ -43,8 +47,28 @@
     background-repeat:no-repeat;
     padding-left:16px;
 }
-
-
+.right
+{
+    float:right;
+    border:double 6px #417A69;
+}
+.active
+{
+    text-align:center;
+    background-color: #00515C;
+}
+.logo
+{
+    color:#C1EFE1;
+    background-image: url(../pics/Logga.png);
+    background-repeat:no-repeat;
+}
+.writtenby
+{
+    font-size:70%;
+    font-style:italic;
+    text-align:right;
+}
 #cssmenu{
     float:left;
     width:200px;
@@ -52,14 +76,14 @@
     padding-top:40px;
     padding-bottom:100px;
     text-align: center;
-    background: linear-gradient(#b0e0e6,#4DC0D0,#4DC0D0,#4DC0D0,#4DC0D0,#4DC0D0,#4DC0D0,#4DC0D0,#b0e0e6);
+    background: linear-gradient(#417A69,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#417A69);
 }
 #cssmenu p
 {
     font-weight:bold;
 }
 #nav{
-    background-color: #4DC0D0;
+    background-color: #6E9C8E;
     font-weight:bold;
     margin:0;
     padding: 0;
@@ -71,7 +95,7 @@
 #nav a
 {
     display:block;
-    border: double 8px #b0e0e6;
+    border: double 8px #417A69;
     padding: 50px;
     color: black;
     text-align:center;
@@ -98,22 +122,6 @@
     width: 427px;
     margin: 0 auto;
 }
-.right
-{
-    float:right;
-    border:double 6px #b0e0e6;
-}
-.active
-{
-    text-align:center;
-    background-color: #00515C;
-}
-.logo
-{
-    background-image: url(../pics/Logga.png);
-    background-repeat:no-repeat;
-}
-
 h1
     {
     padding-top:55px;    
@@ -123,12 +131,12 @@ h1
     } 
 h2
     {
-    border-bottom: double 8px #b0e0e6;
+    border-bottom: double 8px #417A69;
     text-align:center;
     }
 h3
     {
-        border-bottom: double 8px #b0e0e6;
+        border-bottom: double 8px #417A69;
     }    
 header 
     {
@@ -138,8 +146,8 @@ header
     margin-right: auto;
     font-size:15px;
     text-align:center;
-    background: #6DC0CB;
-    border-bottom: double 8px #b0e0e6;
+    background: #275D4D;
+    border-bottom: double 8px #417A69;
     }
 footer 
     {
@@ -148,7 +156,7 @@ footer
     font-style:italic;
     text-align:center;    
     height: 70px;
-    background: #6DC0CB;
+    background: #275D4D;
     clear:both;
     margin-bottom:20px;
     }
@@ -166,35 +174,122 @@ table{
     margin-right:auto;
 }
 table td, th {
-    border: 5px solid  #b0e0e6;
+    border: 5px solid  #417A69;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
 }
 
 th {
-    background-color: #6DC0CB;
+    background-color: #275D4D;
     color: black;
 }
-/*table
-{
-    border: double 8px #b0e0e6;
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto;
-}
-table tfoot tr th
-{
-    border: double 3px black;
-}*/
 body
 {
-    background-color:#fff;
+    background-color:#AFD0C6;
     margin:0;
 }
-.writtenby
+
+.contact
 {
-    font-size:70%;
-    font-style:italic;
-    text-align:right;
+text-align: left;
+font-weight:bold;
 }
+.contact legend
+{
+font-weight:bolder;
+}
+.contact input[type="checkbox"]
+{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+.contact input[type="text"]
+{
+    font-size:15px;
+    background: #fff; 
+    border: 1px solid #01ABFF; 
+    border-radius: 5px; 
+    box-shadow: 0 0 2px 1px #01ABFF; 
+    color: #666; 
+    outline: blue; 
+    height:23px; 
+    width: 260px; 
+    margin:20px;
+    margin-left:20px;
+}
+.contact textarea
+{
+    font-size:15px;
+    background: #fff; 
+    border: 1px solid #01ABFF; 
+    border-radius: 5px; 
+    box-shadow: 0 0 2px 1px #01ABFF; 
+    color: #666; 
+    outline:blue; 
+    height:100px; 
+    width: 445px; 
+    max-width:490px;
+}
+.contact input[type="submit"], input[type="reset"]
+{
+    font-size: 15px;
+    display:block;
+    display: inline-block; 
+    color: Black;
+    text-align:center;
+    text-decoration:none;
+    background-color: #6E9C8E;
+    font-weight:bold;
+    margin:10px;
+    border: double 5px #417A69;
+}
+/*.contact input[type="reset"]
+{
+    font-size: 15px;
+    display:block;
+    display: inline-block; 
+    color: Black;
+    text-align:center;
+    text-decoration:none;
+    background-color: #6E9C8E;
+    font-weight:bold;
+    margin:10px;
+    border: double 5px #417A69;
+}*/
+.contact input[type="reset"]:hover , input[type="submit"]:hover
+{
+    color: #fff;
+    background-color: #369;    
+}
+.contact fieldset
+{
+    border:double 8px #6E9C8E;
+}
+.contact fieldset ul li
+{
+    vertical-align:baseline;
+    display:inline;
+    margin-right:20px;
+    
+}
+.select
+{
+    background: #fff;
+    width: 250px;
+    font-size: 15px;
+    line-height: 1;
+    border: 1px solid #01ABFF; 
+    outline:blue;
+    border-radius: 5px; 
+    box-shadow: 0 0 2px 1px #01ABFF; 
+    height: 34px; 
+}
+#email, #name
+{
+    padding-left:10px;
+}
+

@@ -1,0 +1,31 @@
+body { 
+  color : #000000; 
+  background : #ffffff; 
+  font-family : "Times New Roman", Times, serif;
+  font-size : 12pt; 
+    border:none;
+}
+a { 
+  text-decoration : underline; 
+  color : #0000ff; 
+    border:none;
+}
+header
+{
+    display:none;
+}
+#container
+{
+    background-color:white;
+}
+#cssmenu, #nav, #nav li, #nav a{ 
+  display : none; 
+  border:none;
+}
+#content
+{
+    border-color:white;
+    background-color:white;
+    text-align:left;
+    border:none;
+}
