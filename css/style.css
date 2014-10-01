@@ -69,6 +69,30 @@
     font-style:italic;
     text-align:right;
 }
+.index{
+    background-position:0 -24px;
+}
+.index:hover{
+    background-position:0 24px;
+}
+.laborationer{
+    background-position:0 -120px;
+}
+.laborationer:hover{
+    background-position:0 -72px;
+}
+.presentation{
+    background-position:0 -218px;
+}
+.presentation:hover{
+    background-position:0 -168px;
+}
+.kontakt{
+    background-position:0 -312px;
+}
+.kontakt:hover{
+    background-position:0 -264px; 
+}
 #cssmenu{
     float:left;
     width:200px;
@@ -83,7 +107,7 @@
     font-weight:bold;
 }
 #nav{
-    background-color: #6E9C8E;
+
     font-weight:bold;
     margin:0;
     padding: 0;
@@ -92,11 +116,19 @@
 #nav li{
     margin-top:0px;
 }
+#nav ul li a{
+    text-decoration: none;
+    padding: 24px 24px;
+    color: pink;
+    display:block;
+}
 #nav a
 {
+    background-image: url(pictures/sprite.png);
+    background-repeat:no-repeat;
     display:block;
-    border: double 8px #417A69;
-    padding: 50px;
+    border: double 5px #417A69;
+    padding: 24px;
     color: black;
     text-align:center;
     text-decoration:none;
@@ -232,7 +264,7 @@ font-weight:bolder;
     outline:blue; 
     height:100px; 
     width: 445px; 
-    max-width:490px;
+    max-width:450px;
 }
 .contact input[type="submit"], input[type="reset"]
 {
@@ -292,4 +324,3 @@ font-weight:bolder;
 {
     padding-left:10px;
 }
-
