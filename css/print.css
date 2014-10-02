@@ -26,6 +26,7 @@ header
 }
 #content
 {
+    width:100%;
     float:left;
     border-color:white;
     background-color:transparent;
