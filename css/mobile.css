@@ -18,7 +18,7 @@
 }
 #content p
 {
-    margin:0;
+    margin:3px;
 }
 #cssmenu{
     height:270px;
@@ -69,12 +69,12 @@
   
 table{
     border-collapse: collapse; 
-    width:50%;
+    width:auto;
     margin-left:auto;
     margin-right:auto;
 }
 table td, th {
-    border: 5px solid  #417A69;
+    border: 1px solid  #417A69;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
@@ -86,6 +86,7 @@ th {
 } 
 ol li
 {
+    width:90%;
     text-align:left;
 }
 ul li
@@ -98,7 +99,7 @@ dt, dd{
     
 }
 dd{
-    font-size:20%;
+    font-size:12px;
 }  
 body
 {
@@ -109,8 +110,101 @@ body
 header{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+.linkcontent{
+    margin-left:0;
+    margin-right:10%;
+    text-align:center;
+}
 .linkcontent2
 {
+    display:block;
+    color: Black;
+    text-decoration:none;
+    background-color: #6E9C8E;
+    font-weight:bold;
+    margin:5px;
+    border: double 5px #417A69;
+}  
+body, html{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+#pictures
+{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    rotation:-90deg;
+    margin:15px;
+    margin-left:30%;
+    width:200px;
+    height:200px;
+}
+video{
+    margin-left:5%;
+    margin:10px;
+    width:auto;
+    height:auto;
+}
+#vector{
+    margin:15px;
+    margin-left:10%;
+    width:200px;
+    height:200px;
+}
+#tablecontent{
+    overflow: auto; 
+    overflow-y: hidden;
+}  
+  
+.contact
+{
+width:200px;    
+text-align: left;
+font-weight:bold;
+}
+.contact legend
+{
+font-weight:bolder;
+}
+.contact input[type="checkbox"]
+{
+    font-size:12px;
+    width:19px;
+    height:19px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+label, input{
+    font-size:12px;
+}
+label{
+    text-align:left;
+}
+.contact input[type="text"]
+{
+  display: block;
+  margin: 0;
+  width: 170px; height: 40px;
+  line-height: 40px; font-size: 17px;
+  border: 1px solid #01ABFF;
+  box-shadow: 0 0 2px 1px #01ABFF;
+}
+.contact textarea
+{
+    font-size:15px;
+    background: #fff; 
+    border: 1px solid #01ABFF; 
+    border-radius: 5px; 
+    box-shadow: 0 0 2px 1px #01ABFF; 
+    color: #666; 
+    outline:blue; 
+    height:100px; 
+    width: 100%; 
+}
+.contact input[type="submit"], input[type="reset"]
+{
+    font-size: 15px;
     display:block;
     color: Black;
     text-align:center;
@@ -119,13 +213,36 @@ header{
     font-weight:bold;
     margin:10px;
     border: double 5px #417A69;
+    float:left;
 }  
-
-  
-  
-  
-  
-  
+.contact fieldset
+{
+    width:90%;
+    border: double 3px #417A69;
+}
+.contact fieldset ul li
+{
+    vertical-align:baseline;
+    float:left;
+    margin:10px;
+}
+.select
+{
+    background: #fff;
+    width: 250px;
+    font-size: 15px;
+    line-height: 1;
+    border: 1px solid #01ABFF; 
+    outline:blue;
+    border-radius: 5px; 
+    box-shadow: 0 0 2px 1px #01ABFF; 
+    height: 34px; 
+}  
+#kontakt-formular
+{
+    width: auto;
+    margin: 0 auto;
+}  
   
   
   
