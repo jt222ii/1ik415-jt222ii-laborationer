@@ -1,19 +1,14 @@
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
 #container 
 {
-    background-color:#417A69;
     width: auto; 
     height:auto;
-    font-family:helvetica;
     margin:0 0;
 
 }
 #content
 {
-    float:right;
     width: 100%; 
-    background: #DCFFF5;
-    text-align:left;
     border:none;
 }
 #content p
@@ -28,50 +23,17 @@
     padding-bottom:0;
     padding:0 0;
     background:#6E9C8E;
-    text-align: center;
-}
-#cssmenu p
-{
-    font-weight:bold;
-}
-
-#nav{
-    font-weight:bold;
-    margin:0;
-    padding: 0;
-    list-style-type: none;
-}
-#nav li{
-    margin-top:0px;
-}
-#nav ul li a{
-    text-decoration: none;
-    padding: 14px 14px;
-    color: pink;
-    display:block;
 }
 #nav a
 {
-    background-image: url(pictures/sprite.png);
-    background-repeat:no-repeat;
     display:block;
     border: double 2px #417A69;
     padding: 14px;
-    color: black;
-    text-align:center;
-    text-decoration:none;
-}
-#nav a:hover
-{
-    color: #fff;
-    background-color: #369;
 }
   
 table{
     border-collapse: collapse; 
     width:auto;
-    margin-left:auto;
-    margin-right:auto;
 }
 table td, th {
     border: 1px solid  #417A69;
@@ -107,6 +69,9 @@ body
     background-color:#AFD0C6;
 
 }  
+h1{
+    margin-top:0;
+}
 header{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -132,9 +97,6 @@ box-sizing: border-box;
 }
 #pictures
 {
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-    rotation:-90deg;
     margin:15px;
     margin-left:30%;
     width:200px;
@@ -244,35 +206,6 @@ label{
     margin: 0 auto;
 }  
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
 }
