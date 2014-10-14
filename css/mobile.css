@@ -98,9 +98,11 @@ box-sizing: border-box;
 #pictures
 {
     margin:15px;
-    margin-left:30%;
-    width:200px;
-    height:200px;
+    margin-left:15%;
+    margin-right:auto;
+    width:70%;
+    height:70%;
+    
 }
 video{
     margin-left:5%;
