@@ -377,3 +377,12 @@ margin:20px;
 article {
     border-bottom: double 8px #417A69;
 }
+#hcard-Jonas-Tornfors{
+    font-size:12px;
+    display:block;
+    background-color:white;
+    border-radius:5px;
+    float:right;
+    text-align:right;
+    margin:10px;
+}
