@@ -6,3 +6,33 @@ body{
     margin:100px;
     background-color:lightblue;
 }
+.images a
+{
+
+	background-color:lightyellow;
+	float: left;
+	margin: 0 10px 40px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px black;
+	-moz-box-shadow: 0 4px 6px black;
+	box-shadow: 0 4px 6px black;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	z-index:0;
+    position:relative;
+}
+.images a:after {
+	color: #333;
+	font-size: 30px;
+	font-family:Impact, sans-serif;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+.images img { 
+	display: block; 
+	width: inherit; 
+}
