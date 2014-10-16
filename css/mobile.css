@@ -208,6 +208,39 @@ label{
     margin: 0 auto;
 }  
   
+#container 
+{
+    width: auto; 
+    height:auto;
+    margin:0 0;
 
+}
+main
+{
+    width: 100%; 
+    border:none;
+}
+main p
+{
+    margin:3px;
+}
+#cssmenu{
+    height:270px;
+    width:98%;
+    margin:3px;
+    padding-top:0;
+    padding-bottom:0;
+    padding:0 0;
+    background:#6E9C8E;
+}
+nav a{
+    display:block;
+    border: double 2px #417A69;
+    padding: 14px;
+}
+video{
+    width:98%;
+}
+  
   
 }

@@ -98,9 +98,9 @@
     width:200px;
     height: 500px;
     padding-top:40px;
-    padding-bottom:100px;
+    padding-bottom:70px;
     text-align: center;
-    background: linear-gradient(#417A69,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#417A69);
+    background: linear-gradient(#417A69,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#6E9C8E,#417A69);
 }
 #cssmenu p
 {
@@ -163,7 +163,6 @@ h1
     } 
 h2
     {
-    border-bottom: double 8px #417A69;
     text-align:center;
     }
 h3
@@ -341,12 +340,7 @@ nav{
 nav li{
     margin-top:0px;
 }
-nav ul li a{
-    text-decoration: none;
-    padding: 24px 24px;
-    color: pink;
-    display:block;
-}
+
 nav a
 {
     background-image: url(pictures/sprite.png);
@@ -375,7 +369,7 @@ article p{
 margin:20px;
 }
 article {
-    border-bottom: double 8px #417A69;
+    border-top: double 8px #417A69;
 }
 #hcard-Jonas-Tornfors{
     font-size:12px;
@@ -384,5 +378,14 @@ article {
     border-radius:5px;
     float:right;
     text-align:center;
+    margin:10px;
+}
+aside{
+    font-size:13px;
+    background-color:white;
+    margin:5%;
+    border:2px solid;
+}
+aside p{
     margin:10px;
 }

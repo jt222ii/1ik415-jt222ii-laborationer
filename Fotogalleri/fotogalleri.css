@@ -1,0 +1,146 @@
+img{
+    height:300px;
+}
+body{
+    margin:100px;
+    background-color:lightblue;
+}
+.images a
+{
+	text-decoration: none;
+	-webkit-box-shadow: 5px 10px 16px black;
+	-moz-box-shadow: 5px 10px 16px black;
+	-ms-box-shadow: 5px 10px 16px black;
+	-o-box-shadow: 5px 10px 16px black;
+	box-shadow: 5px 10px 16px black;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	
+	background-color:lightyellow;
+	background-image:url("pics/bakgrundspapper.png");
+	float: left;
+	text-align: center;
+	
+	margin: 0 10px 40px;
+	padding: 10px 10px 30px;
+	transition: all .3s;
+	z-index:0;
+    position:relative;
+}
+.images a:after{
+	color: #333;
+	content: attr(title);
+	font-size: 30px;
+	font-family:Impact, sans-serif;
+	position: relative;
+	top:10px;
+}
+.images img { 
+	display: block; 
+}
+.images a:nth-child(1n)
+{
+	-webkit-transform: rotate(8deg);  
+	-moz-transform: rotate(8deg); 
+	-ms-transform: rotate(8deg); 
+	-o-transform: rotate(8deg); 
+	transform: rotate(8deg); 	
+}
+.images a:nth-child(2n)
+{
+	-webkit-transform: rotate(0deg);  
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg); 
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg); 	
+}
+.images a:nth-child(3n) { 
+	-webkit-transform: rotate(-8deg);  
+	-moz-transform: rotate(-8deg); 
+	-ms-transform: rotate(-8deg); 
+	-o-transform: rotate(-8deg);	
+	transform: rotate(-8deg);
+}
+.images a:nth-child(4n)
+{
+	-webkit-transform: rotate(14deg);  
+	-moz-transform: rotate(14deg); 
+	-ms-transform: rotate(14deg); 
+	-o-transform: rotate(14deg);
+	transform: rotate(14deg);	
+}
+.images a:nth-child(5n)
+{
+	-webkit-transform: rotate(-18deg);  
+	-moz-transform: rotate(-18deg); 
+	-ms-transform: rotate(-18deg); 
+	-o-transform: rotate(-18deg);
+	transform: rotate(-18deg);	
+}
+.images a:nth-child(6n)
+{
+	-webkit-transform: rotate(30deg);  
+	-moz-transform: rotate(30deg); 
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	transform: rotate(30deg);	
+}
+.images a:nth-child(7n)
+{
+	-webkit-transform: rotate(-18deg);  
+	-moz-transform: rotate(-18deg);
+	-ms-transform: rotate(-18deg);
+	-o-transform: rotate(-18deg);
+	transform: rotate(-18deg);	
+}
+.images a:hover, .images a:focus{
+  	-webkit-transform: scale(1.3); 
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+    transform: scale(1.3); 
+	z-index:10;
+	-webkit-box-shadow: 10px 20px 50px black;
+	-moz-box-shadow: 10px 20px 50px black;
+	-ms-box-shadow: 10px 20px 50px black;
+	-o-box-shadow: 10px 20px 50px black;
+    box-shadow: 10px 20px 50px black;
+}
+
+
+/*såhär kan man göra
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+p{
+    background: #0f0;
+}
+p:nth-child(even) {
+    background: #00f;
+}
+p:nth-child(3n+1) {
+    background: #ff0000;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>The first paragraph.</p>
+<p>The second paragraph.</p>
+<p>The third paragraph.</p>
+<p>The fourth paragraph.</p>
+<p>The fifth paragraph.</p>
+<p>The sixth paragraph.</p>
+<p>The seventh paragraph.</p>
+<p>The eight paragraph.</p>
+<p>The ninth paragraph.</p>
+
+<p><b>Note:</b> Internet Explorer 8 and earlier versions do not support the :nth-child() selector.</p>
+
+</body>
+</html>*/
